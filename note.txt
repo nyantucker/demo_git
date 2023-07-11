@@ -1,3 +1,17 @@
 git init: khởi tạo repo local
 tạo repo online trên github
 lấy đường dẫn "git remote add origin https://github.com/nyantucker/demo_git.git" liên kết repo local và online 
+
+đẩy code từ local lên remote (3 bước)
+git add -A : chọn
+git commit -m "nội dung" : xác nhận + ghi kèm chú thích
+git push -u origin master : đẩy file lên lần đầu 
+git push : đẩy lần 2 trở đi 
+
+
+
+
+
++setup account
+git config user.name "nyantucker"
+git config user.email "ltnhan1911@gmail.com"
