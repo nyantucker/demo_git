@@ -23,3 +23,6 @@ git checkout -b login : tạo ra nhánh login từ nhánh hiện tại
 
 chuyển nhánh
 git checkout master
+
+đưa code nhánh login về hiện tại
+git merge login
