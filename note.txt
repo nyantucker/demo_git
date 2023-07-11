@@ -5,8 +5,8 @@ lấy đường dẫn "git remote add origin https://github.com/nyantucker/demo_
 đẩy code từ local lên remote (3 bước)
 git add -A : chọn
 git commit -m "nội dung" : xác nhận + ghi kèm chú thích
-git push -u origin master : đẩy file lên lần đầu 
-git push : đẩy lần 2 trở đi 
+git push -u origin master : đẩy file lên lần đầu trên nhánh
+git push : đẩy lần 2 trở đi trên cùng nhánh
 
 
 
@@ -15,3 +15,8 @@ git push : đẩy lần 2 trở đi
 +setup account
 git config user.name "nyantucker"
 git config user.email "ltnhan1911@gmail.com"
+
+
+tạo nhánh mới từ nhánh hiện tại (nhánh hiện tại là master)
+git branch : list các branch đang có
+git checkout -b login : tạo ra nhánh login từ nhánh hiện tại
