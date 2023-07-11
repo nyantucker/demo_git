@@ -1,0 +1,3 @@
+git init: khởi tạo repo local
+tạo repo online trên github
+lấy đường dẫn "git remote add origin https://github.com/nyantucker/demo_git.git" liên kết repo local và online 
