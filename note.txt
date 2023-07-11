@@ -20,3 +20,6 @@ git config user.email "ltnhan1911@gmail.com"
 tạo nhánh mới từ nhánh hiện tại (nhánh hiện tại là master)
 git branch : list các branch đang có
 git checkout -b login : tạo ra nhánh login từ nhánh hiện tại
+
+chuyển nhánh
+git checkout master
